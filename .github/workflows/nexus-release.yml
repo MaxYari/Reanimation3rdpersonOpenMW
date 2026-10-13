@@ -13,14 +13,14 @@ name: Release to Nexus Mods
 #   The two-handed slash and its alternate now turn the hips with the shoulders.
 #
 # The version is the first `version = ...` in VERSION_SOURCE. If Nexus already has it (you didn't
-# bump it), a counter is appended on Nexus only: 1.0 -> 1.0.1 -> 1.0.2 ... until you bump it.
+# bump it), a counter is appended on Nexus only: 1 -> 1.1 -> 1.2 ... until you bump it.
 #
 # The Nexus API can't edit the mod page description. README.nexus.bbcode (kept in sync by the
 # .githooks/pre-commit hook) has it ready to paste; every run also puts a copy with image links
 # pinned to that commit in the job summary.
 #
 # Can also be run by hand: Actions tab -> Release to Nexus Mods -> Run workflow, or
-#   gh workflow run nexus-release.yml [-f version=1.1] [-f changelog="..."]
+#   gh workflow run nexus-release.yml [-f version=2] [-f changelog="..."]
 # A manual run always uploads, and changelog (when given) replaces the commit's description in both
 # places.
 #
@@ -47,11 +47,11 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  NEXUS_PAGE: https://www.nexusmods.com/morrowind/mods/TODO
+  NEXUS_PAGE: https://www.nexusmods.com/morrowind/mods/60584
   # From the "Advanced" panel of the main file on Nexus. Not secret.
-  NEXUSMODS_FILE_ID: "TODO"
-  NEXUSMODS_MOD_ID: "TODO" # internal mod ID, not the one from the page URL
-  FILE_DISPLAY_NAME: ReAnimation scraps - third-person - OpenMW
+  NEXUSMODS_FILE_ID: "8148246"
+  NEXUSMODS_MOD_ID: "429496790184" # internal mod ID, not the one from the page URL
+  FILE_DISPLAY_NAME: ReAnimation Scraps 3rd Person
   ZIP_NAME: ReAnimation-Scraps-3rd-Person
   VERSION_SOURCE: VERSION
 

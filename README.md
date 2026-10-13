@@ -9,11 +9,8 @@ As mentioned, this has a good part of a vibe-coded, semi-procedural approach to 
 
 Developed for the OpenMW engine. **Requires OpenMW 0.51+**.
 
-## 𖤝 Check out my cool donation banner
-
 <p><a href="https://ko-fi.com/maxyari"><img src="https://raw.githubusercontent.com/MaxYari/OpenMWReAnimation/main/imgs/morrowind_kofi_banner_left_half_bright124.gif" width="25.72%" align="top" alt="Support me on Ko-fi"></a><a href="https://ko-fi.com/maxyari"><img src="https://raw.githubusercontent.com/MaxYari/OpenMWReAnimation/main/imgs/banner_right.png" width="73.88%" align="top" alt="Support me on Ko-fi"></a><br><a href="https://ko-fi.com/maxyari"><img src="https://raw.githubusercontent.com/MaxYari/OpenMWReAnimation/main/imgs/banner_glow.png" width="99.6%" align="top" alt=""></a></p>
 
-Thank you for being around, and have fun :)
 
 ## 𖤝 Some gifs
 
