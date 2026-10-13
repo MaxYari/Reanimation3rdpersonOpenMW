@@ -1,0 +1,2 @@
+# Load this after ReAnimation_API.omwscripts: overrides.lua talks to I.ReAnimation when it loads.
+NPC, PLAYER: scripts/MaxYari/ReAnimation3P/overrides.lua

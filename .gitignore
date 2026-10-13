@@ -1,0 +1,6 @@
+# GIMP working files for the banner/thumbnail (the exported PNGs are committed)
+*.xcf
+.claude/
+# Local output of tools/build_nexus_zip.sh
+nexus-upload.zip
+__pycache__/
