@@ -66,7 +66,8 @@ python3 Sources/Tools/FirstToThird/first_to_third.py -y \
   --first "../ReAnimation Scraps 3rd Person/Animations/1st person sources" \
   --third "../Animation Compilation 0.40-43982-0-40/Animation Compilation" \
   --legs-from "2hstaffspearguard=idle2w@start, 2hstaffspearrecoil=idle2w@start" \
-  --prefix "xReAnim3P_"
+  --prefix "xReAnim3P_" \
+  --arm-bounce-walks hh --arm-bounce-by "hh=0.5" --arm-bounce-real-time hh
 ```
 
 ## 𖤝 Credits
